@@ -4,7 +4,7 @@ from django.db import models
 
 
 class Employee(models.Model):
-    eid = models.CharField('آیدی', max_length=20)
+    eid = models.IntegerField('آیدی')
     ename = models.CharField('نام', max_length=100)
     elname = models.CharField('نام خانوادگی', max_length=20)
     eemail = models.EmailField('ایمیل')
