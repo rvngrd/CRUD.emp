@@ -11,6 +11,5 @@ class Employee(models.Model):
     econtact = models.CharField('شماره تماس', max_length=11)
 
     class Meta:
-        db_table = 'employee'
         verbose_name = 'کارمند'
         verbose_name_plural = 'کارمندان'
